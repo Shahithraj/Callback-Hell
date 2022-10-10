@@ -1,3 +1,26 @@
+const cart = ["shoes","pants","shirts"]
+
+// apis 
+createOrder
+Payment
+orderSummary
+Wallet
+
+api.createOrder(cart, function () {
+  // create order api
+  api.Payment(payment,function()) {
+  //  paymentApi
+     api.orderSummary(order,function()) {
+  //  orderSummary
+     api.wallet() {
+     }
+}
+}
+  )
+
+// we are giving control to the create order function, what if that function is wrong
+
+
 let time = document.getElementById("timer");
 
 setTimeout(() => {
@@ -33,3 +56,5 @@ setTimeout(() => {
     }, 1000);
   }, 1000);
 }, 1000);
+
+
